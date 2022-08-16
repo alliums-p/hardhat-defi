@@ -7,14 +7,14 @@ const networkConfig = {
     daiToken: "0x6b175474e89094c44da98b954eedeac495271d0f",
   },
   // Price Feed Address, values can be obtained at https://docs.chain.link/docs/reference-contracts
-  // Default one is ETH/USD contract on Kovan
-  42: {
-    name: "kovan",
-    ethUsdPriceFeed: "0x9326BFA02ADD2366b30bacB125260Af641031331",
-    wethToken: "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
-    lendingPoolAddressesProvider: "0x88757f2f99175387aB4C6a4b3067c77A695b0349",
-    daiEthPriceFeed: "0x22B58f1EbEDfCA50feF632bD73368b2FdA96D541",
-    daiToken: "0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD",
+  // Default one is ETH/USD contract on Goerli
+  5: {
+    name: "goerli",
+    ethUsdPriceFeed: "0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e",
+    wethToken: "0x2e3A2fb8473316A02b8A297B982498E661E1f6f5",
+    lendingPoolAddressesProvider: "0xc4dCB5126a3AfEd129BC3668Ea19285A9f56D15D",
+    daiEthPriceFeed: "0x22B58f1EbEDfCA50feF632bD73368b2FdA96D541", // from kovan testnet
+    daiToken: "0xDF1742fE5b0bFc12331D8EAec6b478DfDbD31464",
   },
 };
 
